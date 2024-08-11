@@ -69,6 +69,7 @@ body {
 }
 
 .welcomepage .content .sideone {
+    position: relative;
     width: 35%;   
     height: 100%;
     background-image: url(/images/Rectangle\ 1.png);
@@ -81,4 +82,234 @@ body {
     width: 65%;
     height: 100%;
     background-color: antiquewhite;
+    padding: 50px;
 }
+
+.content .sideone .top {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.content .sideone .thetransparentimage{
+    width: 100%;
+    height: 100%;
+}
+
+.thetransparentimage img {
+    width: 100%;
+    height: 99%;
+}
+
+.content .sideone .thestar {
+    position: absolute;
+    top: 0;
+    left: 300px;
+}
+
+.content .sideone .thestar1 {
+    position: absolute;
+    top: 80%;
+    left: 20px;
+}
+
+.thestar img, .thestar1 img {
+    width: 20px;
+}
+
+.content .sideone .thefrenchgreeting  {
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+.thefrenchgreeting img {
+    width: 90%;
+}
+
+.sidetwo .welcomecontent {
+    width: 100%;
+}
+
+
+.welcomecontent span:first-child {
+    font-size: 48px;
+    color: rgba(20, 20, 42, 1);
+    font-family: satoshi;
+    font-weight: 550;
+}
+
+.welcomecontent span#appName {
+    background: linear-gradient(to bottom, rgba(4, 226, 226, 1), rgba(0, 187, 187, 1));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.welcomecontent span#title {
+    display: block;
+    font-family: satoshi;
+    color: rgba(78, 75, 102, 1);
+}
+
+.sidetwo .ourserv {
+    margin-top: 10px;
+    display: block;
+}
+
+.ourserv .content1 {
+    padding: 10px 0px;
+    position: relative;
+}
+
+.content1 img {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+}
+
+.content1 span {
+    padding-left: 35px;
+    font-family: Opensans;
+    color: rgba(78, 75, 102, 1);
+}
+
+.welcomecontent .getstarted {
+    margin-top: 20px;
+}
+
+.getstarted a {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 55px;
+    background: linear-gradient(178.17deg, #04E2E2 1.78%, #00BBBB 98.69%);
+}
+
+.getstarted a:focus {
+    box-shadow: 0px 0px 0.3px 0px rgba(26, 240, 240, 1) inset;
+    
+        box-shadow: 0px -4px 0.3px 0px rgba(0, 121, 121, 1) inset;
+}
+
+#getstarted {
+    color: white;
+        background: linear-gradient(178.17deg, #04E2E2 1.78%, #00BBBB 98.69%);
+}
+
+#getstarted:active {
+    box-shadow: 0px 0px 0.3px 0px rgba(26, 240, 240, 1) inset;
+    
+        box-shadow: 0px -4px 0.3px 0px rgba(0, 121, 121, 1) inset;
+}
+
+.signupHeading {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 20px 20px;
+    display: block;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4.71px 9.41px 0px rgba(96, 97, 112, 0.16);
+}
+
+.signupHeading .logoName span{
+    font-family: Outfit;
+    background: linear-gradient(178.17deg, #04E2E2 1.78%, #00BBBB 98.69%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.contentofthesignup {
+    width: 100%;
+    margin-top: 100px;
+    padding: 0px 200px;
+}
+
+.signupcontenthead {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signupcontenthead .left a img{
+    width: 70%;
+}
+
+.signupcontenthead .right {
+    padding: 20px;
+    width: 90%;
+    border-radius: 14px;
+    border: 1px solid rgba(217, 219, 233, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupcontenthead .right .thecontent{
+    background-color: rgba(239, 240, 246, 1);
+    border-radius: 36px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+.right .thecontent .lev {
+        padding: 6px 10px;
+        width: 20%;
+    background: linear-gradient(160.18deg, #FFFF00 -2.11%, #DEF91B 9.6%, #02CFCF 88.64%);
+    border-radius: 36px;
+}
+
+.secondsignupsection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondsignupsection .thecontents {
+    width: 40%;
+    padding: 0;
+}
+
+.thecontents .firsttext {
+    text-align: center;
+}
+
+.thecontents .firsttext h3 {
+    font-family: satoshi;
+    font-size: 100%;
+    color: var(--Grey-Title, rgba(20, 20, 42, 1));
+    font-size: 26px;
+}
+
+.thecontents .firsttext span {
+    font-family: satoshi;
+    color: var(--Grey-Body, rgba(78, 75, 102, 1));
+}
+
+.selectitem {
+    margin-top: 10px;
+    padding: 0px 60px;
+}
+ 
+.selectitem button {
+    cursor: pointer;
+    padding: 10px 20px;
+    display: block;
+    margin: 20px;
+    width: 100%;
+    background: var(rgba(255, 255, 255, 1));
+    border-radius: 55px;
+    border: 1px solid var(--Grey-Line, rgba(217, 219, 233, 1));
+    font-family: satoshi;
+    font-weight: 500;
+}
+
+.selectitem button:focus {
+        background: rgb(186, 183, 183);
+        transition: 0.5s ease-in-out;
+}
+
