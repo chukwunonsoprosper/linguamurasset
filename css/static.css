@@ -236,3 +236,86 @@ body {
     padding-left: 30px;
     font-weight: 500;
 }
+
+.thehomepages {
+    width: 100%;
+    padding: 20px 90px;
+}
+
+.thehomepages .hometext {
+    width: 70%;
+}
+
+.thehomepages .hometext span {
+    font-family: satoshi;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.thehomepages .flexcontentlearn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.flexcontentlearn .learnthis {
+    position: relative;
+    width: 30%;
+    border: 1px solid var(--Primary-Default, rgba(0, 187, 187, 1));
+    height: 300px;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+
+
+.learnthis .abimage img {
+    width: 20%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.flexcontentlearn .learnthis .thewriteup {
+    width: 100%;
+    position: absolute;
+    padding: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    font-family: satoshi;
+}
+
+.learnthis .thebuttonLearn {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.learnthis .thebuttonLearn a {
+    height: Fixed (54px)px;
+    padding: 14px 50px;
+    border-radius: 55px;
+    border: 1px solid var(--Primary-Default, rgba(0, 187, 187, 1));
+    text-decoration: none;
+    background: var(--Grey-White, rgba(255, 255, 255, 1));
+    font-family: satoshi;
+    font-weight: 600;
+    color: var(--Primary-Default, rgba(0, 187, 187, 1));
+    box-shadow: 0px 0px 0.3px 0px rgba(26, 240, 240, 1) inset;
+
+    box-shadow: 0px -4px 0.3px 0px rgba(0, 121, 121, 1) inset;
+}
+
+#ths {
+    background-color: rgba(247, 222, 172, 1);
+    margin-top: 20px;
+    color: black;
+}
+
+#thsss{
+    border: 1px solid var(--Secondary-Dark, rgba(76, 58, 0, 1));
+    color: var(--Secondary-Dark, rgba(76, 58, 0, 1));
+}
