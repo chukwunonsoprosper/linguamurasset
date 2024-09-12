@@ -277,6 +277,13 @@ body {
     text-align: center;
 }
 
+.thecontents .firsttext span, span a{
+    text-decoration: none;
+    font-weight: 500;
+    color: rgba(0, 187, 187, 1);
+    font-family: satoshi;
+}
+
 .thecontents .firsttext h3 {
     font-family: satoshi;
     font-size: 100%;
@@ -312,3 +319,349 @@ body {
         transition: 0.5s ease-in-out;
 }
 
+
+.starimg {
+    position: absolute;
+    bottom: 250px;
+    right: 0;
+}
+
+.thecontents .thesignuproom {
+        width: 100%;
+        margin-top: 10px;
+        padding: 0px 60px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+}
+
+.thesignuproom .theform {
+    width: 60%;
+    padding: 0px 10px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.thesignuproom .theform input { 
+    width: 100%;
+    font-family: Opensans;
+    padding: 12px;
+    background: rgba(247, 247, 252, 1);
+    border-radius: 8px;
+    border: 1px solid rgba(217, 219, 233, 1);
+    padding-left: 50px;
+}
+
+.thesignuproom .theform label {
+    text-align: left;
+    font-size: 80%;
+    font-weight: 500;
+    font-family: satoshi;
+    margin-bottom: 10px;
+}
+
+.thesignuproom .theform img {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(50%);
+}
+
+.thesignuproom .passstre {
+    width: 60%;
+    padding: 0px 10px;
+    text-align: right;
+    font-size: 14px;
+    font-family: Opensans;
+    color: var(--Grey-Body, rgba(78, 75, 102, 1));
+}
+
+.passstre #thestrength {
+    font-weight: 900;
+    color: rgba(61, 140, 65, 1);
+    border: 5px;
+}
+
+.thesignuproom .theform #signupbtn{
+    padding: 10px 20px;
+        color: white;
+        text-decoration: none;
+        margin-top: 10px;
+        transition: 0.5s ease-in-out;
+        cursor: pointer;
+        font-family: satoshi;
+        border-radius: 55px;
+        background: linear-gradient(178.17deg, #04E2E2 1.78%, #00BBBB 98.69%);
+}
+
+.thesignuproom .theform #signupbtn:focus {
+    box-shadow: 0px 0px 0.3px 0px rgba(26, 240, 240, 1) inset;
+        box-shadow: 0px -4px 0.3px 0px rgba(0, 121, 121, 1) inset;
+}
+
+.theform span {
+    position: absolute;
+    right: 10px;
+    transform: translate(-50%);
+    top: 50%;
+}
+
+.thelogintext {
+    width: 100%;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 500;
+    color: rgba(20, 20, 42, 1);
+    font-family: Opensans;
+    font-size: 80%;
+}
+
+.thelogintext span a {
+    text-decoration: none;
+    color: rgba(0, 187, 187, 1);
+    font-weight: 600;
+}
+
+
+
+.thelastitem {
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 90%;
+}
+
+.thelastitem span a {
+        text-decoration: none;
+            color: rgba(0, 187, 187, 1);
+            font-weight: 600;
+}
+
+.ourserv .theloginform {
+    width: 100%;
+        margin-top: 25px;
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+}
+
+.ourserv .theloginform .theform {
+        width: 60%;
+            padding: 0px 10px;
+            position: relative;
+            margin-bottom: 10px;
+}
+
+.ourserv .theloginform .theform input {
+        width: 100%;
+            font-family: Opensans;
+            padding: 12px;
+            background: rgba(247, 247, 252, 1);
+            border-radius: 8px;
+            border: 1px solid rgba(217, 219, 233, 1);
+            padding-left: 50px;
+}
+
+
+.ourserv .theloginform .theform label {
+    text-align: left;
+    font-size: 80%;
+    font-weight: 500;
+    font-family: satoshi;
+    margin-bottom: 10px;
+}
+
+.ourserv .theloginform .theform img {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(50%);
+}
+
+
+.ourserv .theloginform .theform #signupbtn {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    font-family: satoshi;
+    border-radius: 55px;
+    background: linear-gradient(178.17deg, #04E2E2 1.78%, #00BBBB 98.69%);
+}
+
+.ourserv .theloginform .theform #signupbtn:focus {
+    box-shadow: 0px 0px 0.3px 0px rgba(26, 240, 240, 1) inset;
+    box-shadow: 0px -4px 0.3px 0px rgba(0, 121, 121, 1) inset;
+}
+
+.theform .forgetpasss {
+    width: 100%;
+    text-align: right;
+}
+
+.forgetpasss a {
+    text-decoration: none;
+    color: rgba(78, 75, 102, 1);
+    font-family: satoshi;
+    font-weight: 500;
+    font-size: 85%;
+}
+
+.firsttext .thespan {
+    margin-top: -20px;
+}
+
+.firsttext span {
+    display: block;
+
+}
+
+.firsttext span:first-child {
+    font-family: Opensans;
+    font-weight: 500;
+    color: rgba(78, 75, 102, 1);
+    font-size: 80%;
+}
+
+.firsttext span:last-child {
+        font-family: satoshi;
+            font-weight: 500;
+            color: rgba(0, 56, 56, 1);
+}
+
+.thesignuproom .theisr {
+    width: 80%;
+    text-align: left;
+    padding: 0px 60px;
+    margin-top: 20px;
+}
+
+.theisr .spaninstructiton {
+    font-family: satoshi;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.theinstructionset {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.theinstructionset .theset {
+    position: relative;
+    margin-bottom: 10px;
+    width: 100%;
+    font-family: Opensans;
+    font-weight: 500;
+}
+
+.theset span {
+    padding-left: 30px;
+    color: rgba(20, 20, 42, 1);
+    font-weight: 500;
+    font-size: 90%;
+}
+
+.theset img{ 
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.theinstructionset .theimagesetandthebutton {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.theinstructionset .theimagesetandthebutton .theimage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+
+
+.theimagesetandthebutton .theimage img {
+    width: 35%;
+    height: auto;
+}
+
+.theimagesetandthebutton .thebuttonnext {
+    width: 100%;
+    display: flex;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.theimagesetandthebutton .thebuttonnext button:first-child {
+    width: 35%;
+    padding: 10px 20px;
+        color: white;
+        text-decoration: none;
+        margin-top: 10px;
+        transition: 0.5s ease-in-out;
+        cursor: pointer;
+        font-family: satoshi;
+        border-radius: 55px;
+        border: 1px solid rgba(0, 187, 187, 1);
+        background: rgba(255, 255, 255, 1);
+        color: rgba(0, 187, 187, 1);
+
+}
+
+.theimagesetandthebutton .thebuttonnext button:last-child {
+    width: 35%;
+    padding: 10px 20px;
+        color: white;
+        text-decoration: none;
+        margin-top: 10px;
+        transition: 0.5s ease-in-out;
+        cursor: pointer;
+        font-family: satoshi;
+        border: none;
+        border-radius: 55px;
+        background: linear-gradient(178.17deg, #04E2E2 1.78%, #00BBBB 98.69%);
+}
+
+.theimagesetandthebutton .thebuttonnext button:focus {
+
+    box-shadow: 0px 0px 0.3px 0px rgba(26, 240, 240, 1) inset;
+        box-shadow: 0px -4px 0.3px 0px rgba(0, 121, 121, 1) inset;
+}
+
+.contentofthesignup .thepersonpicture {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.thepersonpicture img {
+    border-radius: 100%;
+        padding: 20px;
+        height: 300px;
+  border: 2px solid lightgrey;
+
+}
+
+.contentofthesignup  .starim img{
+position: relative;
+   filter: drop-shadow(1px 1px 1px );
+}
+
+.contentofthesignup .starim #hey {
+    position: absolute;
+    right: 50px;
+}
