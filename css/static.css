@@ -31,13 +31,14 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .thehomepage .sidenav {
     width: 20%;
+    position: fixed;
     height: 100%;
 }
+
 
 .thehomepage .sidenav .thelogo {
     padding: 20px;
@@ -138,7 +139,7 @@ body {
 
 
 
-.theprofileandothermenu .thenavigations .nav1  i{
+.theprofileandothermenu .thenavigations .nav1 i {
     position: absolute;
     top: 50%;
     left: 0;
@@ -151,15 +152,15 @@ body {
     transition: 0.5s ease-in-out;
 }
 
-.thehomepage .sidenav  .thelogoutsh {
+.thehomepage .sidenav .thelogoutsh {
     width: 100%;
     border-top: 1px solid var(--Grey-Line, rgba(217, 219, 233, 1));
     padding: 15px;
 }
 
 .thelogoutsh .nav1 {
-        width: 100%;
-            position: relative;
+    width: 100%;
+    position: relative;
 }
 
 .thelogoutsh .nav1 span {
@@ -192,8 +193,10 @@ body {
 .thehomepage .thedefaultcontent {
     width: 80%;
     border-left: 1px solid var(--Grey-Line, rgba(217, 219, 233, 1));
-    position: absolute;
     height: 100%;
+    right: 0;
+    position: fixed;
+    overflow: scroll;
     right: 0;
     bottom: 0;
 }
@@ -202,9 +205,11 @@ body {
     width: 100%;
     display: flex;
     position: fixed;
-    padding: 10px;
+    z-index: 1000;
+    padding: 9px;
+    background-color: white;
     align-items: center;
-        border-bottom: 1px solid var(--Grey-Line, rgba(217, 219, 233, 1));
+    border-bottom: 1px solid var(--Grey-Line, rgba(217, 219, 233, 1));
 }
 
 .thedcHeading .item {
@@ -213,7 +218,7 @@ body {
     position: relative;
 }
 
-.thedcHeading .item span{
+.thedcHeading .item span {
     font-family: satoshi;
     font-weight: 400;
 }
@@ -236,6 +241,127 @@ body {
     border-radius: 100px;
 }
 
+.thehomepagecontents {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.thehomepagecontents .theadpanel {
+    width: 100%;
+    text-align: center;
+    padding: 20px 30px;
+    background-color: var(--Secondary-Background, rgba(255, 249, 229, 1));
+}
+
+.thehomepagecontents .theadpanel span {
+    font-family: Satoshi;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.featureflex {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featureflex .flexcontent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flexcontent .thefeature {
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.flexcontent .thefeature .imag {
+    width: 100%;
+    height: 306px;
+    position: relative;
+}
+
+.thefeature .imag img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.flexcontent .thefeature .imag span {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-family: satoshi;
+    color: white;
+    font-weight: 700;
+}
 
 
+.flexcontent .thefeature .thetext {
+    width: 100%;
+    text-align: left;
+}
 
+.flexcontent .thefeature .thetext span {
+    font-family: satoshi;
+    font-weight: 400;
+    font-size: 80%;
+}
+
+.flexcontent .thefeature .thetext .btn {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.flexcontent .thefeature .thetext .btn a {
+    padding: 8px 40px;
+    text-decoration: none;
+    font-family: satoshi;
+    border-radius: 55px;
+    color: white;
+    background: linear-gradient(178.17deg, #04E2E2 1.78%, #00BBBB 98.69%);
+}
+
+.thehomepagecontents .navi {
+    width: 100%;
+    padding: 20px;
+}
+
+.navi .lasti {
+    position: relative;
+    width: 100%;
+    padding: 50px 20px;
+    border-radius: 16px;
+    background-color: var(--Warning-Light, rgba(247, 222, 172, 1));
+}
+
+.lasti .text {
+    font-family: satoshi;
+
+}
+
+.lasti .text h3 {
+    font-weight: 700;
+    font-size: 30px;
+    width: 55%;
+}
+
+.lasti a {
+    position: absolute;
+    color: var(--Secondary-Dark, rgba(76, 58, 0, 1));
+    padding: 10px 30px;
+    border: var(--Secondary-Dark, rgba(76, 58, 0, 1));
+    background-color: white;
+    text-decoration: none;
+    right: 20px;
+    border-radius: 55px;
+    font-family: satoshi;
+    border: 1px solid var(--Secondary-Dark, rgba(76, 58, 0, 1)) box-shadow: 0px 0px 0.3px 0px rgba(255, 255, 128, 1) inset;
+
+    box-shadow: 0px -4px 0.3px 0px rgba(102, 102, 0, 1) inset;
+}
