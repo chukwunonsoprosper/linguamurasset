@@ -197,6 +197,7 @@ body {
     right: 0;
     position: fixed;
     overflow: scroll;
+    overflow-x: hidden;
     right: 0;
     bottom: 0;
 }
@@ -206,7 +207,7 @@ body {
     display: flex;
     position: fixed;
     z-index: 1000;
-    padding: 9px;
+    padding: 15px;
     background-color: white;
     align-items: center;
     border-bottom: 1px solid var(--Grey-Line, rgba(217, 219, 233, 1));
