@@ -216,16 +216,21 @@ body {
     text-align: center;
     margin-right: 30px;
     position: relative;
+    cursor: pointer;
 }
+
+ .thedcHeading .item:hover span,  .thedcHeading .item:hover i {
+        color: var(--Primary-Default, rgba(0, 187, 187, 1));
+            transition: 0.5s ease-in-out;
+ }
 
 .thedcHeading .item span {
-    font-family: satoshi;
-    font-weight: 400;
+    position: relative;
+        font-family: satoshi;
+        text-decoration: none;
+        font-weight: 500;
 }
 
-.thedcHeading .item i:hover {
-    -webkit-text-fill-color: #00BBBB;
-}
 
 .thedcHeading .item #abs {
     width: 10px;
