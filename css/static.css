@@ -3,11 +3,6 @@
     src: url(/font/Outfit/Outfit-VariableFont_wght.ttf);
 }
 
-span,
-a {
-    font-size: 90%;
-}
-
 @font-face {
     font-family: Opensans;
     src: url(/font/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
@@ -22,300 +17,225 @@ a {
     box-sizing: border-box;
 }
 
+span {
+    font-size: 90%;
+    color: black;
+}
+
 body {
     padding: 0;
     margin: 0;
 }
 
-.linguamuraHome {
+.thehomepage {
     width: 100%;
-    background-color: var(--Grey-White, rgba(255, 255, 255, 1));
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 2px 4.71px 6.2px 0px rgba(96, 97, 112, 0.16);
-
 }
 
-.linguamuraHome .heading {
-    width: 100%;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    padding: 4px 15px;
-}
-
-.linguamuraHome .heading a {
-    padding-right: 25px;
-}
-
-.linguamuraHome .heading a:last-child {
-    padding-right: unset;
-}
-
-.linguamuraHome .heading a img {
-    width: 70%;
-}
-
-
-.linguamuraHome .appname {
-    padding: 4px 15px;
-}
-
-.appname img {
-    width: 90%;
-}
-
-.thehomepagebody {
-    width: 100%;
-    padding: 20px;
-    margin-top: 70px;
-}
-
-.thehomepagebody .firstsection {
-    width: 100%;
-    background: var(--Secondary-Background, rgba(255, 249, 229, 1));
-    padding: 25px;
-    text-align: center;
-}
-
-.thehomepagebody .firstsection span {
-    font-family: satoshi;
-    font-weight: 700;
-    color: rgba(78, 75, 102, 1);
-}
-
-.linguamurasimp {
-    width: 100%;
-    padding: 20px 150px;
-}
-
-.linguamurasimp .texts {
-    width: 70%;
-}
-
-.linguamurasimp .texts span {
-    font-family: satoshi;
-    font-weight: 500;
-    font-size: 25px;
-}
-
-.whattolearn {
-    width: 100%;
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.whattolearn .thestructure {
-    width: 30%;
-    height: 300px;
-    background: linear-gradient(top 90% black, bottom white);
-
-    display: block;
-    margin-bottom: 150px;
-}
-
-.thestructure .img {
-    width: 100%;
+.thehomepage .sidenav {
+    width: 20%;
     height: 100%;
+}
+
+.thehomepage .sidenav .thelogo {
+    padding: 20px;
+    border-bottom: 1px solid var(--Grey-Line, rgba(217, 219, 233, 1));
+}
+
+.thehomepage .sidenav .thelogo span {
+    font-family: outfit;
+    background: linear-gradient(178.17deg, #04E2E2 1.78%, #00BBBB 98.69%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    width: 600;
+    font-size: 100%;
+}
+
+.thehomepage .sidenav .thefullmenucontent {
+    padding: 15px;
+    width: 100%;
+}
+
+.sidenav .thefullmenucontent .thesearchbar {
+    width: 100%;
     position: relative;
 }
 
-.thestructure .img img {
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
-    opacity: 0.9;
+.iconsax {
+    font-size: 18px;
+    font-weight: 500;
 }
 
-.thestructure .img span {
-    position: absolute;
-    padding: 10px;
-    color: white;
+.thefullmenucontent .thesearchbar input {
+    width: 100%;
+    background-color: rgba(247, 247, 252, 1);
+    border-radius: 46px;
+    border: 1px solid rgba(217, 219, 233, 1);
+    padding: 10px 16px;
+    outline: none;
+    position: relative;
     font-family: satoshi;
-    bottom: 6px;
-    font-weight: 700;
+    padding-left: 35px;
+}
+
+.thefullmenucontent .thesearchbar i {
+    position: absolute;
+    transform: translateY(-50%);
+    left: 10px;
+    top: 50%;
+}
+
+.theprofileandothermenu {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.theprofileandothermenu .userprofile {
+    width: 100%;
+    position: relative;
+}
+
+.theprofileandothermenu .userprofile img {
+    height: 30px;
+    position: absolute;
+    border-radius: 100px;
+    transform: translateY(-50%);
+    top: 50%;
     left: 0;
 }
 
-.thestructure .thetextandurl {
-    width: 100%;
+.theprofileandothermenu .userprofile span {
+    font-family: satoshi;
+    font-weight: 400;
+    padding-left: 40px;
 }
 
-.thetextandurl span {
+.theprofileandothermenu .thenavigations {
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.theprofileandothermenu .thenavigations .nav1 {
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.theprofileandothermenu .thenavigations .nav1 span {
+    position: relative;
     font-family: satoshi;
-    color: rgba(20, 20, 42, 1);
+    text-decoration: none;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.theprofileandothermenu .thenavigations .nav1 a {
+    text-decoration: none;
+}
+
+
+
+.theprofileandothermenu .thenavigations .nav1  i{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+
+.theprofileandothermenu .thenavigations .nav1 i:hover {
+    color: var(--Primary-Default, rgba(0, 187, 187, 1));
+    transition: 0.5s ease-in-out;
+}
+
+.thehomepage .sidenav  .thelogoutsh {
+    width: 100%;
+    border-top: 1px solid var(--Grey-Line, rgba(217, 219, 233, 1));
+    padding: 15px;
+}
+
+.thelogoutsh .nav1 {
+        width: 100%;
+            position: relative;
+}
+
+.thelogoutsh .nav1 span {
+    position: relative;
+    font-family: satoshi;
+    text-decoration: none;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.thelogoutsh .nav1 a {
+    text-decoration: none;
+}
+
+
+
+.thelogoutsh .nav1 i {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+
+.thelogoutsh .nav1 i:hover {
+    color: var(--Primary-Default, rgba(0, 187, 187, 1));
+    transition: 0.5s ease-in-out;
+}
+
+.thehomepage .thedefaultcontent {
+    width: 80%;
+    border-left: 1px solid var(--Grey-Line, rgba(217, 219, 233, 1));
+    position: absolute;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+}
+
+.thedefaultcontent .thedcHeading {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    padding: 10px;
+    align-items: center;
+        border-bottom: 1px solid var(--Grey-Line, rgba(217, 219, 233, 1));
+}
+
+.thedcHeading .item {
+    text-align: center;
+    margin-right: 30px;
+    position: relative;
+}
+
+.thedcHeading .item span{
+    font-family: satoshi;
     font-weight: 400;
 }
 
-.thetextandurl .li {
-    width: 100%;
-    margin-top: 20px;
+.thedcHeading .item i:hover {
+    -webkit-text-fill-color: #00BBBB;
 }
 
-.thetextandurl .li a {
-    height: Fixed (54px)px;
-    padding: 10px 50px;
-    border-radius: 55px;
-    border: 1px solid var(--Primary-Default, rgba(0, 187, 187, 1));
-    text-decoration: none;
-    font-family: satoshi;
-    font-weight: 600;
-    color: var(--Primary-Default, rgba(0, 187, 187, 1));
-}
-
-.thetextandurl .li a:focus {
-    box-shadow: 0px 0px 0.3px 0px rgba(26, 240, 240, 1) inset;
-
-    box-shadow: 0px -4px 0.3px 0px rgba(0, 121, 121, 1) inset;
-}
-
-.connectwithus {
-    width: 100%;
-    height: 238px;
-    border-radius: 16px;
-    position: relative;
-    padding: 10px;
-    color: white;
-    background: var(--Primary-Default, rgba(0, 187, 187, 1));
-}
-
-.connectwithus h3 {
-    font-family: Satoshi;
-    font-size: 30px;
-    font-weight: 500;
-    text-align: left;
-}
-
-.connectwithus .button {
+.thedcHeading .item #abs {
+    width: 10px;
+    height: 10px;
     position: absolute;
-    right: 10px;
-    bottom: 30px;
+    background-color: red;
+    border-radius: 100px;
+    top: 0;
+    right: 0;
 }
 
-.connectwithus .button a {
-    height: Fixed (54px)px;
-    padding: 14px 50px;
-    border-radius: 55px;
-    border: 1px solid var(--Primary-Default, rgba(0, 187, 187, 1));
-    text-decoration: none;
-    background: var(--Grey-White, rgba(255, 255, 255, 1));
-    font-family: satoshi;
-    font-weight: 600;
-    color: var(--Primary-Default, rgba(0, 187, 187, 1));
-}
-
-.connectwithus .button a:focus {
-    box-shadow: 0px 0px 0.3px 0px rgba(26, 240, 240, 1) inset;
-
-    box-shadow: 0px -4px 0.3px 0px rgba(0, 121, 121, 1) inset;
-}
-
-.thelanguagelearningpage {
-    width: 100%;
-}
-
-.thelanguagelearningpage .languageHeading {
-    margin-top: 65px;
-    color: white;
-    width: 100%;
-    padding: 15px 30px;
-    background-color: var(--Primary-Dark, rgba(0, 56, 56, 1));
-}
-
-.thelanguagelearningpage .languageHeading a {
-    text-decoration: none;
-    color: white;
-    font-family: satoshi;
-    padding-left: 30px;
-    font-weight: 500;
-}
-
-.thehomepages {
-    width: 100%;
-    padding: 20px 90px;
-}
-
-.thehomepages .hometext {
-    width: 70%;
-}
-
-.thehomepages .hometext span {
-    font-family: satoshi;
-    font-weight: 500;
-    font-size: 23px;
-}
-
-.thehomepages .flexcontentlearn {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.flexcontentlearn .learnthis {
-    position: relative;
-    width: 30%;
-    border: 1px solid var(--Primary-Default, rgba(0, 187, 187, 1));
-    height: 300px;
-    border-radius: 16px;
-    padding: 20px;
+.thedcHeading .item #rad {
+    border-radius: 100px;
 }
 
 
 
-.learnthis .abimage img {
-    width: 20%;
-    position: absolute;
-    right: 10px;
-    top: 10px;
-}
 
-.flexcontentlearn .learnthis .thewriteup {
-    width: 100%;
-    position: absolute;
-    padding: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 0;
-    font-family: satoshi;
-}
-
-.learnthis .thebuttonLearn {
-    position: absolute;
-    bottom: 20px;
-    left: 10px;
-}
-
-.learnthis .thebuttonLearn a {
-    height: Fixed (54px)px;
-    padding: 14px 50px;
-    border-radius: 55px;
-    border: 1px solid var(--Primary-Default, rgba(0, 187, 187, 1));
-    text-decoration: none;
-    background: var(--Grey-White, rgba(255, 255, 255, 1));
-    font-family: satoshi;
-    font-weight: 600;
-    color: var(--Primary-Default, rgba(0, 187, 187, 1));
-    box-shadow: 0px 0px 0.3px 0px rgba(26, 240, 240, 1) inset;
-
-    box-shadow: 0px -4px 0.3px 0px rgba(0, 121, 121, 1) inset;
-}
-
-#ths {
-    background-color: rgba(247, 222, 172, 1);
-    margin-top: 20px;
-    color: black;
-}
-
-#thsss{
-    border: 1px solid var(--Secondary-Dark, rgba(76, 58, 0, 1));
-    color: var(--Secondary-Dark, rgba(76, 58, 0, 1));
-}
