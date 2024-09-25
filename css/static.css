@@ -368,7 +368,52 @@ body {
     bottom: 20px;
     border-radius: 55px;
     font-family: satoshi;
-    border: 1px solid var(--Secondary-Dark, rgba(76, 58, 0, 1)) box-shadow: 0px 0px 0.3px 0px rgba(255, 255, 128, 1) inset;
-
+    border: 1px solid var(--Secondary-Dark, rgba(76, 58, 0, 1));
+    box-shadow: 0px 0px 0.3px 0px rgba(255, 255, 128, 1) inset;
     box-shadow: 0px -4px 0.3px 0px rgba(102, 102, 0, 1) inset;
+}
+
+.flexcontent .educationcot {
+    width: 32%;
+    height: 300px;
+}
+
+.flexcontent .educationcot .imagecontainer {
+    width: 100%;
+}
+
+.educationcot .imagecontainer img {
+    width: 100%;
+    height: auto;
+}
+
+.educationcot .text {
+    width: 100%;
+    text-align: left;
+}
+
+.educationcot .text #fi {
+    font-family: satoshi;
+    font-weight: 600;
+}
+
+.educationcot .text .texta {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.educationcot .text .texta span {
+    font-family: satoshi;
+    font-weight: 400;
+}
+
+.educationcot .text .texta a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    background-color: #04E2E2;
+    border-radius: 10px;
+    font-weight: 500;
 }
