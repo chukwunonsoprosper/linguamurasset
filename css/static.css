@@ -210,7 +210,8 @@ body {
     height: 20px;
 }
 
-.thelogoutsh .nav1 .personame small, span {
+.thelogoutsh .nav1 .personame small,
+span {
     position: relative;
     font-family: satoshi;
     text-decoration: none;
@@ -223,7 +224,7 @@ body {
 }
 
 .thelogoutsh .nav1 .personame small {
-   font-size: 70%;
+    font-size: 70%;
 }
 
 .thehomepage .thedefaultcontent {
@@ -256,7 +257,7 @@ body {
 }
 
 .thedcHeading .content2 {
-    width: 50%;
+    width: 55%;
     display: flex;
     align-items: center;
 }
@@ -268,9 +269,10 @@ body {
 }
 
 .thedcHeading .content2 .languageswit {
+    width: 20%;
     display: flex;
-    justify-content: space-between;
-    width: 15%;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .thedcHeading .content2 .languageswit span {
