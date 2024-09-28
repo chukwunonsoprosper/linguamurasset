@@ -41,7 +41,8 @@ body {
 
 
 .thehomepage .sidenav .thelogo {
-    padding: 30px 20px;
+    padding: 30px 15px;
+    padding-left: unset;
     border-bottom: 1px solid var(--Grey-Line, rgba(217, 219, 233, 1));
 }
 
@@ -508,3 +509,11 @@ span {
     top: 50%;
     transform: translateY(-50%);
 }
+
+.flextthelanguage {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
