@@ -370,6 +370,7 @@ span {
 
 .flexcontent .thefeature .thetext span {
     font-family: satoshi;
+    padding-left: unset;
     font-weight: 400;
     font-size: 80%;
 }
@@ -430,7 +431,10 @@ span {
 
 .flexcontent .educationcot {
     width: 32%;
-    height: 300px;
+    border-radius: 24px;
+    box-shadow: 0px 1.59px 2.35px 0px rgba(96, 97, 112, 0.16);
+
+    /* box-shadow: 0px 0px 1.18px 0px rgba(40, 41, 61, 0.08); */
 }
 
 .flexcontent .educationcot .imagecontainer {
@@ -443,8 +447,13 @@ span {
 }
 
 .educationcot .text {
+    padding: 10px;
     width: 100%;
     text-align: left;
+}
+
+.educationcot .text span {
+    padding-left: unset;
 }
 
 .educationcot .text #fi {
@@ -455,6 +464,7 @@ span {
 .educationcot .text .texta {
     width: 100%;
     display: flex;
+    padding-left: unset;
     justify-content: space-between;
     align-items: center;
 }
