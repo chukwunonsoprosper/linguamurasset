@@ -254,11 +254,11 @@ span {
 
 .thedcHeading .content1 {
     position: relative;
-    width: 20%;
+    width: 30%;
 }
 
 .thedcHeading .content2 {
-    width: 55%;
+    width: 60%;
     display: flex;
     align-items: center;
 }
@@ -483,8 +483,8 @@ span {
     border-radius: 10px;
     font-weight: 500;
     /* box-shadow: 0px 0px 0.3px 0px rgba(26, 240, 240, 1) inset; */
-    
-        box-shadow: 0px 4px 0.3px 0px rgba(0, 121, 121, 1);
+
+    box-shadow: 0px 4px 0.3px 0px rgba(0, 121, 121, 1);
 }
 
 .featureflex .iwanttolearn {
@@ -511,9 +511,82 @@ span {
 }
 
 .flextthelanguage {
-     width: 100%;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0px 150px;
+    margin-top: 20px;
 }
 
+.flextthelanguage .countrylanguage {
+    padding: 20px;
+    width: 110px;
+    height: 110px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 16px;
+    box-shadow: 0px 0.59px 2.35px 0px rgba(96, 97, 112, 0.16);
+
+    /* box-shadow: 0px 0px 1.18px 0px rgba(40, 41, 61, 0.08); */
+    position: relative;
+}
+
+.flextthelanguage .countrylanguage .iconsax {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.flextthelanguage .countrylanguage .flag {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flextthelanguage .countrylanguage .flag img {
+    width: 100%;
+    height: auto;
+}
+
+.flextthelanguage .countrylanguage .countryname {
+    width: 100%;
+    text-align: center;
+}
+
+.flextthelanguage .countrylanguage .countryname span {
+    padding-left: unset;
+    font-family: satoshi;
+    font-weight: 600;
+}
+
+.featureflex .proficiencylevel {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 300px;
+    margin-top: 50px;
+}
+
+.featureflex .proficiencylevel .firstlevel {
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 55px;
+    padding: 10px 20px;
+    border: 1px solid var(--Grey-Line, rgba(217, 219, 233, 1))
+}
+
+
+.featureflex .proficiencylevel .firstlevel i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
