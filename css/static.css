@@ -42,7 +42,6 @@ body {
 
 .thehomepage .sidenav .thelogo {
     padding: 30px 15px;
-    padding-left: unset;
     border-bottom: 1px solid var(--Grey-Line, rgba(217, 219, 233, 1));
 }
 
@@ -52,6 +51,7 @@ body {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     width: 700;
+    padding-left: unset;
     font-size: 100%;
 }
 
@@ -498,6 +498,10 @@ span {
     position: relative;
 }
 
+.featureflex .iwanttolearn .header span {
+    padding-left: unset;
+}
+
 .featureflex .iwanttolearn .header span:last-child {
     font-weight: 800;
 }
@@ -589,4 +593,72 @@ span {
     top: 50%;
     right: 10px;
     transform: translateY(-50%);
+}
+
+.featureflex .youareoff {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+
+.featureflex .youareoff .image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.featureflex .youareoff .image .imagesac {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.featureflex .youareoff .image .imagesac img {
+    width: 15%;
+}
+
+.featureflex .youareoff .image span {
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-weight: 400;
+}
+
+.youareoff .youareoffbutton {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5px 250px;
+}
+
+.youareoff .youareoffbutton a {
+    width: 55%;
+    display: block;
+    padding: 10px 30px;
+    background: white;
+    box-shadow: 0px 0px 0.3px 0px rgba(26, 240, 240, 1) inset;
+
+    box-shadow: 0px -4px 0.3px 0px rgba(0, 121, 121, 1) inset;
+    margin: 5px;
+    text-align: center;
+    color: var(--Primary-Default, rgba(0, 187, 187, 1));
+    text-decoration: none;
+    font-family: satoshi;
+    font-weight: 400;
+    border-radius: 55px;
+}
+
+.youareoff .youareoffbutton a:first-child {
+    background: linear-gradient(178.17deg, #04E2E2 1.78%, #00BBBB 98.69%);
+    color: white;
 }
