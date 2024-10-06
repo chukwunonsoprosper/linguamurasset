@@ -305,7 +305,8 @@ span {
 
 .thehomepagecontents {
     width: 100%;
-    margin-top: 60px;
+    height: 100%;
+    padding: 55px 0px 0px;
 }
 
 .thehomepagecontents .theadpanel {
@@ -661,4 +662,246 @@ span {
 .youareoff .youareoffbutton a:first-child {
     background: linear-gradient(178.17deg, #04E2E2 1.78%, #00BBBB 98.69%);
     color: white;
+}
+
+.featureflex .daytolearn {
+    width: 100%;
+    padding: 70px 100px;
+}
+
+.daytolearn .firsttext span {
+    padding-left: unset;
+}
+
+.daytolearn .days {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.daytolearn .days .dayone {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+}
+
+.dayone span {
+    padding-left: unset;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.selectimetolearn {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.selectimetolearn .thetimebox {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.thetimebox select,
+option {
+    padding: 10px 50px;
+    border: 1px solid rgba(217, 219, 233, 1);
+    border-radius: 8px;
+    background: rgba(239, 240, 246, 1);
+}
+
+.daytolearn hr {
+    margin-top: 25px;
+    border: 1px solid var(--Grey-Line, rgba(217, 219, 233, 1))
+}
+
+.daytolearn .reminder {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.daytolearn .reminder .setareminder {
+    width: 70%;
+}
+
+.reminder .setareminder span {
+    display: block;
+    padding-left: unset;
+    font-family: satoshi;
+}
+
+.reminder .setareminder span:first-child {
+    font-weight: 700;
+}
+
+.reminder .setareminder span:last-child {
+    font-size: smaller;
+    color: var(--Grey-Body, rgba(78, 75, 102, 1));
+}
+
+.daytolearn .continuebuton {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.daytolearn .continuebuton a {
+    width: 40%;
+    display: block;
+    padding: 10px 30px;
+    background: linear-gradient(178.17deg, #04E2E2 1.78%, #00BBBB 98.69%);
+    box-shadow: 0px 0px 0.3px 0px rgba(26, 240, 240, 1) inset;
+    color: white;
+    box-shadow: 0px -4px 0.3px 0px rgba(0, 121, 121, 1) inset;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-family: satoshi;
+    font-weight: 400;
+    border-radius: 55px;
+}
+
+.thehomepagecontents .learningenvironment {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.learningenvironment .learningenvironmentone {
+    width: 70%;
+    overflow-y: scroll;
+    padding: 20px 20px;
+    scrollbar-color: lightgrey white;
+    scrollbar-width: thin;
+    height: 100%;
+    border-right: 1px solid var(--Grey-Line, rgba(217, 219, 233, 1));
+}
+
+
+.learningenvironment .learningenvironmenttwo {
+    width: 30%;
+    height: 100%;
+    padding: 20px 20px;
+}
+
+.learningenvironmentone .headingmenu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.learningenvironment .headingmenu .beginnermenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.learningenvironment .headingmenu .beginnermenu span {
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: smaller;
+}
+
+.learningtopics {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.learningtopics .learningheaders {
+    width: 100%;
+    background: var(--Primary-Default, rgba(0, 187, 187, 1));
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.learningheaders .learningname {
+    width: 30%;
+}
+
+.learningenvironment .learningname span {
+    padding-left: unset;
+    color: white;
+}
+
+.learningenvironment .learningprogress {
+    width: 70%;
+}
+
+.learningenvironment .learningprogress .container {
+    width: 100%;
+    border: 0.56px solid var(--Grey-White, rgba(255, 255, 255, 1));
+    padding: 2px 5px;
+    border-radius: 5.64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.learningprogress .container .progresssrc {
+    width: 95%;
+    border-radius: 20.29px;
+    background-color: white;
+}
+
+.learningprogress .container .progressbar {
+    width: 50px;
+    padding: 5px;
+    border-radius: 20.29px;
+    background: linear-gradient(160.18deg, #FFC000 -2.11%, #D7C221 9.69%, #C1C433 17.86%, #02CFCF 88.64%);
+}
+
+.learningprogress .container .progresscount span {
+    color: white;
+    font-weight: 700;
+    font-size: smaller;
+}
+
+.learningenvironmentone .learningscheme {
+    width: 100%;
+    background-color: var(--Grey-Off-White, rgba(252, 252, 252, 1));
+}
+
+.learningscheme .theschemes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    align-items: center;
+}
+
+.theschemes .outline {
+    width: 100%;
+    position: relative;
+}
+
+.theschemes .outline span {
+    display: block;
+    padding-left: 65px;
+}
+
+.theschemes .outline span:first-child {
+    font-weight: 700;
+}
+
+.theschemes .outline img {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    border-radius: 100px;
+    height: 50px;
+    padding: 5px;
+    border: 4px solid rgba(217, 217, 217, 1);
 }
