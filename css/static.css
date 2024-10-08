@@ -267,6 +267,7 @@ span {
 .thedcHeading .content1 span {
     font-family: satoshi;
     font-weight: 500;
+    padding-left: unset;
 }
 
 .thedcHeading .content2 .languageswit {
@@ -777,7 +778,7 @@ option {
 }
 
 .learningenvironment .learningenvironmentone {
-    width: 70%;
+    width: 80%;
     overflow-y: scroll;
     padding: 20px 20px;
     scrollbar-color: lightgrey white;
@@ -788,9 +789,9 @@ option {
 
 
 .learningenvironment .learningenvironmenttwo {
-    width: 30%;
+    width: 20%;
     height: 100%;
-    padding: 20px 20px;
+    padding: 20px 10px;
 }
 
 .learningenvironmentone .headingmenu {
@@ -904,4 +905,127 @@ option {
     height: 50px;
     padding: 5px;
     border: 4px solid rgba(217, 217, 217, 1);
+}
+
+
+.learningenvironmenttwo .noticonandrest {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.learningenvironment .noticonandrest .iconset {
+    display: flex;
+    width: 33px;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+
+.learningenvironment .noticonandrest .iconset img {
+    width: 20px;
+}
+
+
+.learningenvironment .noticonandrest .iconset span {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    color: var(--Grey-Placeholder, rgba(160, 163, 189, 1));
+    transform: translateY(-50%);
+    font-weight: 500;
+    font-size: small;
+}
+
+.learningenvironment .learnwithatutor {
+    width: 100%;
+    height: 135px;
+    padding: 10px;
+    margin-top: 20px;
+    position: relative;
+    background-color: rgba(255, 192, 0, 1);
+    border-radius: 16px;
+}
+
+.learningenvironment .learnwithatutor span {
+    padding-left: unset;
+    color: white;
+    display: block;
+}
+
+.learningenvironment .learnwithatutor span:first-child {
+    font-weight: 700;
+}
+
+
+.learningenvironment .learnwithatutor a {
+    padding: 8px 10px;
+    background-color: white;
+    box-shadow: 0px 0px 0.3px 0px rgba(255, 192, 0, 1);
+
+    box-shadow: 0px 4px 0.3px 0px rgba(153, 115, 0, 1);
+    color: rgba(255, 192, 0, 1);
+    text-decoration: none;
+    position: absolute;
+    right: 5px;
+    border: 1px solid rgba(153, 115, 0, 1);
+    bottom: 10px;
+    border-radius: 9px;
+
+}
+
+#textlast {
+    font-size: smaller;
+}
+
+.featureflex .listen {
+    width: 100%;
+    height: 200px;
+    padding: 0px 100px;
+}
+
+.featureflex .listen .headingprogress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.featureflex .listen .headingprogress .progresscontainer {
+    width: 100%;
+    border: 0.56px solid var(--Grey-Line, rgba(217, 219, 233, 1));
+    padding: 2px 5px;
+    border-radius: 5.64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featureflex .listen .headingprogress .progresscontainer .progressbackground {
+    width: 100%;
+    border-radius: 20.29px;
+    background-color: rgba(247, 247, 252, 1);
+
+}
+
+span {
+    padding-left: unset;
+}
+
+.featureflex .listen .headingprogress .progresscontainer .progressbackground .position {
+    width: 50px;
+    padding: 5px;
+    border-radius: 20.29px;
+    background: linear-gradient(178.17deg, #04E2E2 1.78%, #00BBBB 98.69%);
+}
+
+.thelistensection {
+    width: 100%;
+}
+
+.thelistensection .listet {
+    text-align: center;
+    width: 100%;
+    font-family: satoshi;
 }
