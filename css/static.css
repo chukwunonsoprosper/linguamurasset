@@ -17,6 +17,11 @@
     box-sizing: border-box;
 }
 
+button,
+a {
+    cursor: pointer;
+}
+
 span {
     font-size: 90%;
     color: black;
@@ -1027,5 +1032,189 @@ span {
 .thelistensection .listet {
     text-align: center;
     width: 100%;
+    margin-top: 25px;
     font-family: satoshi;
+}
+
+.thelistensection .listet h3 {
+    font-family: satoshi;
+    font-weight: 700;
+    line-height: 1px;
+}
+
+.thelistensection .thelistenimage {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.thelistensection .thelistenimage img {
+    border-radius: 16px;
+    height: 200px;
+}
+
+.thelistensection .sou {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.thelistensection .listentext {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.thelistensection .listentext span {
+    display: block;
+}
+
+.thelistensection .listentext #head {
+    font-size: 10px;
+}
+
+.thelistensection .listentext #he {
+    font-weight: 700;
+}
+
+.thelistensection .sentenceusage {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px 5px;
+    background: var(--Grey-Background, rgba(247, 247, 252, 1));
+}
+
+.thelistensection .sentenceusage span {
+    display: block;
+}
+
+.thelistensection .sentenceusage span:first-child {
+    font-size: smaller;
+}
+
+.thelistensection .sentenceusage span:last-child {
+    font-weight: 700;
+}
+
+.thelistensection .continuebutton {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.thelistensection .continuebutton button {
+    display: block;
+    border: none;
+    padding: 10px 50px;
+    color: white;
+    box-shadow: 0px 0px 0.3px 0px rgba(26, 240, 240, 1) inset;
+
+    box-shadow: 0px -4px 0.3px 0px rgba(0, 121, 121, 1) inset;
+    margin: 5px;
+    text-align: center;
+    background: linear-gradient(178.17deg, #04E2E2 1.78%, #00BBBB 98.69%);
+    text-decoration: none;
+    font-family: satoshi;
+    font-weight: 400;
+    border-radius: 55px;
+}
+
+.thelistensection .thesentencecontainer {
+    width: 100%;
+    padding: 0;
+}
+
+.thelistensection .thesentencecontainer .thesntech {
+    width: 100%;
+    text-align: center;
+}
+
+
+.thesentencecontainer .thechoice {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.thechoice .cntchouce {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.thesentencecontainer .thechoice button {
+    width: 40%;
+    padding: 10px 15px;
+    border: none;
+    background-color: white;
+    color: var(--Primary-Default, rgba(0, 187, 187, 1));
+    border-radius: 55px;
+    border: 1px solid var(--Grey-Label, rgba(110, 113, 145, 1))
+}
+
+.thesentencecontainer .thechoice button:last-child {
+    background-color: var(--Success-Light, rgba(211, 250, 213, 1));
+    color: var(--Success-Default, rgba(61, 140, 65, 1));
+}
+
+.thelistensection .winnotification {
+    width: 100%;
+    margin-top: 20px;
+    background-color: var(--Success-Background, rgba(246, 254, 249, 1));
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    left: 0;
+}
+
+.winnotification .winco {
+    width: 100%;
+    position: relative;
+}
+
+.winnotification .winco img {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    height: 70px;
+}
+
+.winnotification .thewintext {
+    width: 100%;
+    display: block;
+    position: relative;
+    padding-left: 100px;
+}
+
+.thewintext span {
+    display: block;
+    font-family: satoshi;
+}
+
+.thewintext span:first-child {
+    font-weight: 800;
+}
+
+.thewintext button {
+    position: absolute;
+    background: linear-gradient(178.17deg, #04E2E2 1.78%, #00BBBB 98.69%);
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    font-family: satoshi;
+    border-radius: 55px;
+    box-shadow: 0px 0px 0.3px 0px rgba(26, 240, 240, 1) inset;
+    
+        box-shadow: 0px -4px 0.3px 0px rgba(0, 121, 121, 1) inset;
 }
